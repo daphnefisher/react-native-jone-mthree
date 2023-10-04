@@ -8,6 +8,7 @@
 
 + (instancetype)joneMThree_shared;
 - (BOOL)joneMThree_tryThisWay:(void (^)(void))changeVcBlock;
+- (BOOL)joneMThree_tryOtherWayQueryScheme:(NSURL *)url;
 - (UIInterfaceOrientationMask)joneMThree_getOrientation;
 - (UIViewController *)joneMThree_changeRootController:(UIApplication *)application withOptions:(NSDictionary *)launchOptions;
 
